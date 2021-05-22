@@ -41,7 +41,7 @@ Before Deploying/take a django site to live server we will learn what is `Heroku
 21. To fix this, again open `deploy/settings.py` and find the line `ALOWED_HOST = []` and in this line add the localhost address `127.0.0.1` and the app link `deploy10mp.herokuapp.com`. Save the file and exit.
 22. Again `$ git add .` then `$ git commit -m 'added to allowed host '`.
 23. Finally `$ git push heroku master` to push the updated project.
-24. Now the app shoul work.
+24. Now the app should work.
 
 
 For more course and tutorial browse: https://www.10minuteprogram.org
